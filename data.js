@@ -3,7 +3,7 @@
 var profile = {
     name: "Shayan Ul Haq",
     initials: "SH",                     // shown in the circle if there is no photo
-    photo: "",                            // put your image path here, e.g. "images/me.jpg" ***
+    photo: "images/me.png",              // put your image path here, e.g. "images/me.jpg" ***
     role: "Front End Developer",
     typingRoles: [                        // these words type themselves one by one
         "Front End Developer",
