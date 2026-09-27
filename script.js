@@ -139,7 +139,7 @@ function makeLogoHtml() {
     var html;
 
     if (nameParts.length > 1) {
-        html = nameParts[0] + " <span>" + nameParts[1] + "</span>";
+        html = nameParts[0] + " <span>" + nameParts[1] + "</span>" + " <span>" + nameParts[2] + "</span>";
     } else {
         html = "<span>" + nameParts[0] + "</span>";
     }

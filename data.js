@@ -1,22 +1,9 @@
-/* =========================================================================
-   data.js  —  THIS IS THE ONLY FILE YOU NEED TO EDIT
-
-   The whole website is built from the arrays and objects below.
-   Change the values here, save the file, refresh the browser. That is all.
-   You never have to touch index.html, style.css or script.js.
-
-   index.html loads this file first, one line above script.js. Every var below
-   becomes a global variable, so script.js can read it by name and turn it into
-   the page. Keep the var keyword and keep the names spelled the same, because
-   script.js looks for these exact names.
-   ========================================================================= */
-
 
 /* ---------- 1) BASIC INFO — shown in the top hero banner --------------- */
 var profile = {
-    name: "Ali Huzaifa",
-    initials: "AH",                       // shown in the circle if there is no photo
-    photo: "",                            // put your image path here, e.g. "images/me.jpg"
+    name: "Shayan Ul Haq",
+    initials: "SH",                     // shown in the circle if there is no photo
+    photo: "",                            // put your image path here, e.g. "images/me.jpg" ***
     role: "Front End Developer",
     typingRoles: [                        // these words type themselves one by one
         "Front End Developer",
@@ -26,10 +13,10 @@ var profile = {
     ],
     tagline: "I am a computer science student who builds clean, fast and mobile friendly websites with HTML, CSS and JavaScript.",
     location: "Karachi, Pakistan",
-    email: "ali.huzaifa@example.com",
-    phone: "+92 300 1234567",
+    email: "shayanulhaq5555@gmail.com",
+    phone: "+92 313 1070322",
     available: true,                      // true shows the green "open to work" badge
-    resume: "resume.pdf"                  // link or file name of your CV
+    resume: "resume.pdf"                  // link or file name of your CV ***
 };
 
 
@@ -47,10 +34,10 @@ var navLinks = [
 
 /* ---------- 3) SOCIAL LINKS -------------------------------------------- */
 var socialLinks = [
-    { name: "GitHub",   icon: "GH", link: "https://github.com/username" },
-    { name: "LinkedIn", icon: "in", link: "https://linkedin.com/in/username" },
-    { name: "Twitter",  icon: "X",  link: "https://twitter.com/username" },
-    { name: "Email",    icon: "@",  link: "mailto:ali.huzaifa@example.com" }
+    { name: "GitHub",   icon: "GH", link: "https://github.com/shayanulhaq16" },
+    { name: "LinkedIn", icon: "in", link: "https://www.linkedin.com/in/shayan-ul-haq-757192397/" },
+    { name: "Twitter",  icon: "X",  link: "https://x.com/shayanulhaq16" },
+    { name: "Email",    icon: "@",  link: "shayanulhaq5555@gmail.com" }
 ];
 
 
@@ -61,19 +48,17 @@ var aboutText = [
 ];
 
 var aboutFacts = [
-    { label: "Full Name",  value: "Ali Huzaifa" },
-    { label: "Degree",     value: "BS Computer Science" },
-    { label: "University", value: "NED University" },
+    { label: "Full Name",  value: "Shayan Ul Haq" },
     { label: "Languages",  value: "English, Urdu" },
     { label: "Location",   value: "Karachi, Pakistan" },
     { label: "Freelance",  value: "Available" }
 ];
 
 var stats = [
-    { number: 12, suffix: "+", label: "Projects Built" },
-    { number: 3,  suffix: "",  label: "Years Learning" },
-    { number: 8,  suffix: "+", label: "Certificates" },
-    { number: 5,  suffix: "+", label: "Happy Clients" }
+    { number: 12, suffix: "+", label: "Projects Built" }, // ***
+    { number: 3,  suffix: "",  label: "Years Learning" }, // ***
+    { number: 8,  suffix: "+", label: "Certificates" }, // ***
+    { number: 5,  suffix: "+", label: "Happy Clients" } // ***
 ];
 
 
@@ -95,18 +80,18 @@ var skillGroups = [
         skills: [
             { name: "Git and GitHub",  percent: 70 },
             { name: "VS Code",         percent: 90 },
-            { name: "Figma",           percent: 60 },
-            { name: "Chrome DevTools", percent: 72 }
+            { name: "Figma",           percent: "" },
+            { name: "Chrome DevTools", percent: "" }
         ]
     },
     {
         category: "Currently Learning",
         icon: "*",
         skills: [
-            { name: "React",    percent: 45 },
-            { name: "Node.js",  percent: 35 },
-            { name: "Tailwind", percent: 55 },
-            { name: "MongoDB",  percent: 30 }
+            { name: "React",    percent: "" },
+            { name: "Node.js",  percent: "" },
+            { name: "Tailwind", percent: "" },
+            { name: "MongoDB",  percent: "" }
         ]
     }
 ];
@@ -114,45 +99,45 @@ var skillGroups = [
 
 /* ---------- 6) PROJECTS ------------------------------------------------- */
 /* The filter buttons are created automatically from the category names. */
-var projects = [
+var projects = [ 
     {
         title: "Calculator App",
         category: "JavaScript",
         icon: "=",
         description: "A calculator that handles add, subtract, multiply and divide, and also works with the keyboard.",
         tech: ["HTML", "CSS", "JavaScript"],
-        demo: "#",
-        code: "#",
+        demo: "https://shayanulhaq16.github.io/Calculator/",
+        code: "https://github.com/shayanulhaq16/Calculator",
         featured: true
     },
     {
         title: "To Do List",
         category: "JavaScript",
-        icon: "[]",
+        icon: "✓",
         description: "Add tasks, mark them complete and delete them. Everything is saved in the browser with localStorage.",
         tech: ["HTML", "CSS", "JavaScript", "localStorage"],
-        demo: "#",
-        code: "#",
+        demo: "https://shayanulhaq16.github.io/Todo-List/",
+        code: "https://github.com/shayanulhaq16/Todo-List",
         featured: true
     },
-    {
-        title: "Restaurant Website",
-        category: "Website",
-        icon: "&",
-        description: "A responsive website for a local restaurant with a menu, a photo gallery and a booking form.",
-        tech: ["HTML", "CSS", "Bootstrap"],
-        demo: "#",
-        code: "#",
-        featured: false
-    },
+    // { // ***
+    //     title: "Restaurant Website",
+    //     category: "Website",
+    //     icon: "&",
+    //     description: "A responsive website for a local restaurant with a menu, a photo gallery and a booking form.",
+    //     tech: ["HTML", "CSS", "Bootstrap"],
+    //     demo: "#",
+    //     code: "#",
+    //     featured: false
+    // },
     {
         title: "Weather App",
         category: "API",
         icon: "~",
         description: "Type a city name and see the current weather. Live data comes from the OpenWeather API.",
-        tech: ["JavaScript", "Fetch API", "CSS"],
-        demo: "#",
-        code: "#",
+        tech: ["JavaScript", "Fetch API", "HTML", "CSS"],
+        demo: "https://the-weather-pump.vercel.app/",
+        code: "https://github.com/shayanulhaq16/The-Weather-Pump",
         featured: true
     },
     {
@@ -161,9 +146,9 @@ var projects = [
         icon: "?",
         description: "A ten question quiz with a countdown timer and a score screen. Questions are stored in an array of objects.",
         tech: ["HTML", "CSS", "JavaScript"],
-        demo: "#",
-        code: "#",
-        featured: false
+        demo: "https://shayanulhaq16.github.io/Quiz-Application/",
+        code: "https://github.com/shayanulhaq16/Quiz-Application",
+        featured: true
     },
     {
         title: "Portfolio Template",
@@ -171,9 +156,9 @@ var projects = [
         icon: "@",
         description: "The portfolio you are looking at right now. Every section is generated from a single data file.",
         tech: ["HTML", "CSS", "JavaScript"],
-        demo: "#",
-        code: "#",
-        featured: false
+        demo: "https://student-portfolio-kappa-weld.vercel.app/",
+        code: "https://github.com/shayanulhaq16/Student-Portfolio-Template-After-JS",
+        featured: true
     }
 ];
 
@@ -267,8 +252,8 @@ var testimonials = [
 
 /* ---------- 11) CONTACT CARDS ------------------------------------------- */
 var contactInfo = [
-    { icon: "@", label: "Email",     value: "ali.huzaifa@example.com", link: "mailto:ali.huzaifa@example.com" },
-    { icon: "#", label: "Phone",     value: "+92 300 1234567",         link: "tel:+923001234567" },
+    { icon: "@", label: "Email",     value: "shayanulhaq5555@gmail.com", link: "mailto:shayanulhaq5555@gmail.com" },
+    { icon: "#", label: "Phone",     value: "+92 313 1070322",         link: "tel:+923131070322" },
     { icon: "^", label: "Location",  value: "Karachi, Pakistan",       link: "#" },
     { icon: "*", label: "Freelance", value: "Available for work",      link: "#contact" }
 ];
@@ -290,7 +275,7 @@ var footerInfo = {
     ctaText: "Have a project in mind?",
     ctaSub: "I reply to every message, usually within a day.",
     ctaButton: "Start a conversation",
-    owner: "Ali Huzaifa",              // the year is added automatically, so it never goes stale
+    owner: "Shayan Ul Haq",              // the year is added automatically, so it never goes stale
     rights: "All rights reserved.",
     builtWith: "Built with HTML, CSS and vanilla JavaScript."
 };
