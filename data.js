@@ -263,8 +263,8 @@ var contactInfo = [
 
 /* ---------- 12) CONTACT NOTE — the line and button under the cards ------- */
 var contactNote = {
-    text: "Email is the fastest way to reach me. I am open to internships, freelance projects and questions about code.",
-    buttonText: "Send Me An Email"
+    text: "Phone Number is the fastest way to reach me. I am open to internships, freelance projects and questions about code.",
+    buttonText: "Send Me A Massage"
 };
 
 

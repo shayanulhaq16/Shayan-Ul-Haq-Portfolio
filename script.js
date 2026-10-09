@@ -583,7 +583,7 @@ function makeContact(cardsBox, noteBox, mailButton) {
     /* The line and the button underneath, which open the visitor's email app */
     noteBox.innerHTML = toSafeText(contactNote.text);
     mailButton.innerHTML = toSafeText(contactNote.buttonText);
-    mailButton.setAttribute("href", "mailto:" + profile.email);
+    mailButton.setAttribute("href", "https://wa.me/923131070322");
 }
 
 
