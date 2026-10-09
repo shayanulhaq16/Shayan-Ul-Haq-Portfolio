@@ -105,7 +105,7 @@ var projects = [
     {
         title: "Calculator App",
         category: "JavaScript",
-        icon: "=",
+        icon: "images/calculator.png",
         description: "A calculator that handles add, subtract, multiply and divide, and also works with the keyboard.",
         tech: ["HTML", "CSS", "JavaScript"],
         demo: "https://shayanulhaq16.github.io/Calculator/",
@@ -115,7 +115,7 @@ var projects = [
     {
         title: "To Do List",
         category: "JavaScript",
-        icon: "✓",
+        icon: "images/todolist.png",
         description: "Add tasks, mark them complete and delete them. Everything is saved in the browser with localStorage.",
         tech: ["HTML", "CSS", "JavaScript", "localStorage"],
         demo: "https://shayanulhaq16.github.io/To-do-List/",
@@ -135,7 +135,7 @@ var projects = [
     {
         title: "Weather App",
         category: "API",
-        icon: "~",
+        icon: "images/weatherapp.png",
         description: "Type a city name and see the current weather. Live data comes from the OpenWeather API.",
         tech: ["JavaScript", "Fetch API", "HTML", "CSS"],
         demo: "https://the-weather-pump.vercel.app/",
@@ -145,7 +145,7 @@ var projects = [
     {
         title: "Quiz App",
         category: "JavaScript",
-        icon: "?",
+        icon: "images/quizapp.png",
         description: "A ten question quiz with a countdown timer and a score screen. Questions are stored in an array of objects.",
         tech: ["HTML", "CSS", "JavaScript"],
         demo: "https://shayanulhaq16.github.io/Quiz-Application/",
@@ -155,7 +155,7 @@ var projects = [
     {
         title: "Portfolio Template",
         category: "Website",
-        icon: "@",
+        icon: "images/porfoliotemplate.png",
         description: "The portfolio you are looking at right now. Every section is generated from a single data file.",
         tech: ["HTML", "CSS", "JavaScript"],
         demo: "https://student-portfolio-kappa-weld.vercel.app/",

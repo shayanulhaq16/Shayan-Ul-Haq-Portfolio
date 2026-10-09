@@ -406,7 +406,8 @@ function makeProjects(gridBox, category) {
                 html += "<span class='star'>Featured</span>";
             }
 
-            html += "<div class='project-top' aria-hidden='true'>" + toSafeText(projects[i].icon) + "</div>";
+            // toSafeText(projects[i].icon)
+            html += "<div class='project-top' aria-hidden='true'>" + `<img src='${projects[i].icon}' alt=''>` + "</div>";
             html += "<div class='project-body'>";
             html += "<span class='project-cat'>" + toSafeText(projects[i].category) + "</span>";
             html += "<h3>" + toSafeText(projects[i].title) + "</h3>";
