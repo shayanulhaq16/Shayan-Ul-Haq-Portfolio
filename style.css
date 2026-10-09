@@ -607,7 +607,7 @@ button:focus-visible {
 .about-grid {
     display: grid;
     grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
-    align-items: start;
+    align-items: center;
     gap: clamp(32px, 4vw, 48px);
 }
 .about-copy p { color: var(--text-soft); }
