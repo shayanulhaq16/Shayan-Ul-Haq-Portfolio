@@ -530,31 +530,31 @@ function makeServices(gridBox) {
 /* =========================================================
    13) TESTIMONIAL CARDS
    ========================================================= */
-function makeTestimonials(gridBox) {
-    var html = "";
-    var firstLetter;
-    var i;
+// function makeTestimonials(gridBox) {
+//     var html = "";
+//     var firstLetter;
+//     var i;
 
-    for (i = 0; i < testimonials.length; i++) {
+//     for (i = 0; i < testimonials.length; i++) {
 
-        /* The round avatar shows the first letter of the person's name */
-        firstLetter = toSafeText(testimonials[i].name.charAt(0));
+//         /* The round avatar shows the first letter of the person's name */
+//         firstLetter = toSafeText(testimonials[i].name.charAt(0));
 
-        html += "<figure class='testi-card'>" +
-                    "<div class='quote' aria-hidden='true'>&ldquo;</div>" +
-                    "<blockquote><p>" + toSafeText(testimonials[i].message) + "</p></blockquote>" +
-                    "<figcaption class='testi-person'>" +
-                        "<div class='avatar' aria-hidden='true'>" + firstLetter + "</div>" +
-                        "<div>" +
-                            "<h4>" + toSafeText(testimonials[i].name) + "</h4>" +
-                            "<span>" + toSafeText(testimonials[i].role) + "</span>" +
-                        "</div>" +
-                    "</figcaption>" +
-                "</figure>";
-    }
+//         html += "<figure class='testi-card'>" +
+//                     "<div class='quote' aria-hidden='true'>&ldquo;</div>" +
+//                     "<blockquote><p>" + toSafeText(testimonials[i].message) + "</p></blockquote>" +
+//                     "<figcaption class='testi-person'>" +
+//                         "<div class='avatar' aria-hidden='true'>" + firstLetter + "</div>" +
+//                         "<div>" +
+//                             "<h4>" + toSafeText(testimonials[i].name) + "</h4>" +
+//                             "<span>" + toSafeText(testimonials[i].role) + "</span>" +
+//                         "</div>" +
+//                     "</figcaption>" +
+//                 "</figure>";
+//     }
 
-    gridBox.innerHTML = html;
-}
+//     gridBox.innerHTML = html;
+// }
 
 
 /* =========================================================
@@ -958,7 +958,7 @@ function startWebsite() {
     // makeTimeline(timelineBox);
     // makeCertificates(certGridBox);
     makeServices(servicesGridBox);
-    makeTestimonials(testiGridBox);
+    // makeTestimonials(testiGridBox);
     makeContact(contactCardsBox, contactNoteTextBox, contactMailButton);
     makeFooterTop(footerCtaTextBox, footerCtaSubBox, footerCtaButton, footerAboutBox);
     makeFooterColumns(footerLinksHeadingBox, footerLinksBox,

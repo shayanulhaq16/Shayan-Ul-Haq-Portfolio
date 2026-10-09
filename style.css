@@ -862,8 +862,8 @@ button:focus-visible {
 /* =========================================================
    10. TIMELINE AND CERTIFICATES
    ========================================================= */
-.timeline { position: relative; max-width: 900px; margin-inline: auto; }
-.timeline::before {
+/* .timeline { position: relative; max-width: 900px; margin-inline: auto; } */
+/* .timeline::before {
     content: "";
     position: absolute;
     top: 0;
@@ -872,17 +872,17 @@ button:focus-visible {
     width: 2px;
     margin-left: -1px;
     background: var(--line);
-}
-.tl-item {
+} */
+/* .tl-item {
     position: relative;
     width: 50%;
     padding-right: var(--s-10);
     padding-bottom: var(--s-10);
-}
-.tl-item.right { margin-left: 50%; padding-right: 0; padding-left: var(--s-10); }
-.tl-item:last-child { padding-bottom: 0; }
+} */
+/* .tl-item.right { margin-left: 50%; padding-right: 0; padding-left: var(--s-10); } */
+/* .tl-item:last-child { padding-bottom: 0; } */
 
-.tl-dot {
+/* .tl-dot {
     position: absolute;
     top: 24px;
     right: -9px;
@@ -892,11 +892,11 @@ button:focus-visible {
     border: 4px solid var(--brand);
     border-radius: 50%;
     background: var(--bg-alt);
-}
-.tl-item.right .tl-dot { right: auto; left: -9px; }
+} */
+/* .tl-item.right .tl-dot { right: auto; left: -9px; } */
 
-.tl-card { padding: var(--card-pad); }
-.tl-year {
+/* .tl-card { padding: var(--card-pad); } */
+/* .tl-year {
     display: inline-block;
     margin-bottom: var(--s-2);
     padding: 3px var(--s-3);
@@ -906,12 +906,12 @@ button:focus-visible {
     font-size: 12px;
     font-weight: 700;
     line-height: 1.7;
-}
-.tl-card h3 { font-size: 18px; font-weight: 700; }
-.tl-place { margin-bottom: 6px; color: var(--brand); font-size: 14px; font-weight: 600; }
-.tl-card p { color: var(--text-soft); font-size: 15px; }
+} */
+/* .tl-card h3 { font-size: 18px; font-weight: 700; } */
+/* .tl-place { margin-bottom: 6px; color: var(--brand); font-size: 14px; font-weight: 600; } */
+/* .tl-card p { color: var(--text-soft); font-size: 15px; } */
 
-.cert-grid {
+/* .cert-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: var(--gap);
@@ -922,10 +922,10 @@ button:focus-visible {
     gap: 2px;
     padding: var(--s-6);
     border-left: 4px solid var(--brand);
-}
-.cert-year { color: var(--brand); font-size: 12px; font-weight: 700; letter-spacing: .6px; }
+} */
+/* .cert-year { color: var(--brand); font-size: 12px; font-weight: 700; letter-spacing: .6px; }
 .cert-card h4 { font-size: 16px; font-weight: 700; }
-.cert-card p { color: var(--text-soft); font-size: 14px; }
+.cert-card p { color: var(--text-soft); font-size: 14px; } */
 
 
 /* =========================================================
@@ -982,7 +982,7 @@ button:focus-visible {
 /* =========================================================
    12. TESTIMONIALS
    ========================================================= */
-.testi-grid {
+/* .testi-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     gap: var(--gap);
@@ -991,14 +991,14 @@ button:focus-visible {
     display: flex;
     flex-direction: column;
     padding: var(--card-pad);
-}
-.quote { color: var(--brand); font-size: 46px; font-weight: 800; line-height: 1; }
+} */
+/* .quote { color: var(--brand); font-size: 46px; font-weight: 800; line-height: 1; } */
 /* The quote grows to fill the card, so the name sits on the same line in every card */
-.testi-card blockquote { flex: 1; margin-block: 6px var(--s-5); }
-.testi-card blockquote p { color: var(--text-soft); font-size: 15px; }
+/* .testi-card blockquote { flex: 1; margin-block: 6px var(--s-5); }
+.testi-card blockquote p { color: var(--text-soft); font-size: 15px; } */
 
-.testi-person { display: flex; align-items: center; gap: var(--s-3); }
-.avatar {
+/* .testi-person { display: flex; align-items: center; gap: var(--s-3); } */
+/* .avatar {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1011,7 +1011,7 @@ button:focus-visible {
     font-weight: 800;
 }
 .testi-person h4 { font-size: 15px; font-weight: 700; }
-.testi-person span { display: block; color: var(--text-soft); font-size: 13px; line-height: 1.5; }
+.testi-person span { display: block; color: var(--text-soft); font-size: 13px; line-height: 1.5; } */
 
 
 /* =========================================================
