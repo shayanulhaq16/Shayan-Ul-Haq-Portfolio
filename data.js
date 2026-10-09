@@ -73,7 +73,7 @@ var skillGroups = [
             { name: "HTML5",      percent: 92 },
             { name: "CSS3",       percent: 88 },
             { name: "JavaScript", percent: 80 },
-            { name: "Bootstrap",  percent: 75 }
+            { name: "Bootstrap",  percent: 60 }
         ]
     },
     {
@@ -82,7 +82,7 @@ var skillGroups = [
         skills: [
             { name: "Git and GitHub",  percent: 70 },
             { name: "VS Code",         percent: 90 },
-            { name: "Figma",           percent: "" },
+            { name: "Figma",           percent: 10 },
             { name: "Chrome DevTools", percent: "" }
         ]
     },
@@ -90,8 +90,8 @@ var skillGroups = [
         category: "Currently Learning",
         icon: "*",
         skills: [
-            { name: "React",    percent: "" },
-            { name: "Node.js",  percent: "" },
+            { name: "Sopabase",    percent: 10 },
+            { name: "Type Script",  percent: 40 },
             { name: "Tailwind", percent: "" },
             { name: "MongoDB",  percent: "" }
         ]
