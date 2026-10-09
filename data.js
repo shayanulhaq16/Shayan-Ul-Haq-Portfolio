@@ -26,7 +26,7 @@ var navLinks = [
     { title: "About",     link: "#about" },
     { title: "Skills",    link: "#skills" },
     { title: "Projects",  link: "#projects" },
-    { title: "Education", link: "#education" },
+    // { title: "Education", link: "#education" },
     { title: "Services",  link: "#services" },
     { title: "Contact",   link: "#contact" }
 ];
@@ -166,45 +166,45 @@ var projects = [
 
 
 /* ---------- 7) EDUCATION AND EXPERIENCE TIMELINE ------------------------ */
-var timeline = [
-    {
-        type: "education",
-        year: "2023 - 2027",
-        title: "BS Computer Science",
-        place: "NED University, Karachi",
-        detail: "Coursework in programming, data structures, databases and web development. Current CGPA 3.6."
-    },
-    {
-        type: "education",
-        year: "2021 - 2023",
-        title: "Intermediate, Pre Engineering",
-        place: "Adamjee Government Science College",
-        detail: "Graduated with an A grade and served as an active member of the college computer society."
-    },
-    {
-        type: "experience",
-        year: "2024 - Present",
-        title: "Freelance Web Developer",
-        place: "Fiverr and Upwork",
-        detail: "Build landing pages and portfolio websites for small businesses, from first draft to final handover."
-    },
-    {
-        type: "experience",
-        year: "Summer 2024",
-        title: "Front End Intern",
-        place: "TechSol Pvt Ltd",
-        detail: "Worked with the team on sections of the company website and improved the responsive layout."
-    }
-];
+// var timeline = [
+//     {
+//         type: "education",
+//         year: "2023 - 2027",
+//         title: "BS Computer Science",
+//         place: "NED University, Karachi",
+//         detail: "Coursework in programming, data structures, databases and web development. Current CGPA 3.6."
+//     },
+//     {
+//         type: "education",
+//         year: "2021 - 2023",
+//         title: "Intermediate, Pre Engineering",
+//         place: "Adamjee Government Science College",
+//         detail: "Graduated with an A grade and served as an active member of the college computer society."
+//     },
+//     {
+//         type: "experience",
+//         year: "2024 - Present",
+//         title: "Freelance Web Developer",
+//         place: "Fiverr and Upwork",
+//         detail: "Build landing pages and portfolio websites for small businesses, from first draft to final handover."
+//     },
+//     {
+//         type: "experience",
+//         year: "Summer 2024",
+//         title: "Front End Intern",
+//         place: "TechSol Pvt Ltd",
+//         detail: "Worked with the team on sections of the company website and improved the responsive layout."
+//     }
+// ];
 
 
 /* ---------- 8) CERTIFICATES --------------------------------------------- */
-var certificates = [
-    { title: "Web Development Bootcamp", issuer: "Saylani Mass IT", year: "2024", link: "#" },
-    { title: "JavaScript Essentials",    issuer: "Coursera",        year: "2024", link: "#" },
-    { title: "Responsive Web Design",    issuer: "freeCodeCamp",    year: "2023", link: "#" },
-    { title: "Git and GitHub Basics",    issuer: "Udemy",           year: "2023", link: "#" }
-];
+// var certificates = [
+//     { title: "Web Development Bootcamp", issuer: "Saylani Mass IT", year: "2024", link: "#" },
+//     { title: "JavaScript Essentials",    issuer: "Coursera",        year: "2024", link: "#" },
+//     { title: "Responsive Web Design",    issuer: "freeCodeCamp",    year: "2023", link: "#" },
+//     { title: "Git and GitHub Basics",    issuer: "Udemy",           year: "2023", link: "#" }
+// ];
 
 
 /* ---------- 9) SERVICES ------------------------------------------------- */

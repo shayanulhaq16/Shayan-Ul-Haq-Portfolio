@@ -459,53 +459,53 @@ function filterProjects(category, clickedButton) {
 /* =========================================================
    10) EDUCATION AND EXPERIENCE TIMELINE
    ========================================================= */
-function makeTimeline(lineBox) {
-    var html = "";
-    var side;
-    var i;
+// function makeTimeline(lineBox) {
+//     var html = "";
+//     var side;
+//     var i;
 
-    for (i = 0; i < timeline.length; i++) {
+//     for (i = 0; i < timeline.length; i++) {
 
-        /* Even entries sit left of the line, odd entries sit right of it.
-           On a phone the stylesheet moves them all to one side. */
-        if (i % 2 === 0) {
-            side = "tl-item";
-        } else {
-            side = "tl-item right";
-        }
+//         /* Even entries sit left of the line, odd entries sit right of it.
+//            On a phone the stylesheet moves them all to one side. */
+//         if (i % 2 === 0) {
+//             side = "tl-item";
+//         } else {
+//             side = "tl-item right";
+//         }
 
-        html += "<div class='" + side + "'>" +
-                    "<span class='tl-dot' aria-hidden='true'></span>" +
-                    "<div class='tl-card'>" +
-                        "<span class='tl-year'>" + toSafeText(timeline[i].year) + "</span>" +
-                        "<h3>" + toSafeText(timeline[i].title) + "</h3>" +
-                        "<div class='tl-place'>" + toSafeText(timeline[i].place) + "</div>" +
-                        "<p>" + toSafeText(timeline[i].detail) + "</p>" +
-                    "</div>" +
-                "</div>";
-    }
+//         html += "<div class='" + side + "'>" +
+//                     "<span class='tl-dot' aria-hidden='true'></span>" +
+//                     "<div class='tl-card'>" +
+//                         "<span class='tl-year'>" + toSafeText(timeline[i].year) + "</span>" +
+//                         "<h3>" + toSafeText(timeline[i].title) + "</h3>" +
+//                         "<div class='tl-place'>" + toSafeText(timeline[i].place) + "</div>" +
+//                         "<p>" + toSafeText(timeline[i].detail) + "</p>" +
+//                     "</div>" +
+//                 "</div>";
+//     }
 
-    lineBox.innerHTML = html;
-}
+//     lineBox.innerHTML = html;
+// }
 
 
 /* =========================================================
    11) CERTIFICATE CARDS
    ========================================================= */
-function makeCertificates(gridBox) {
-    var html = "";
-    var i;
+// function makeCertificates(gridBox) {
+//     var html = "";
+//     var i;
 
-    for (i = 0; i < certificates.length; i++) {
-        html += "<a class='cert-card' href='" + toSafeText(certificates[i].link) + "' target='_blank' rel='noopener noreferrer'>" +
-                    "<span class='cert-year'>" + toSafeText(certificates[i].year) + "</span>" +
-                    "<h4>" + toSafeText(certificates[i].title) + "</h4>" +
-                    "<p>" + toSafeText(certificates[i].issuer) + "</p>" +
-                "</a>";
-    }
+//     for (i = 0; i < certificates.length; i++) {
+//         html += "<a class='cert-card' href='" + toSafeText(certificates[i].link) + "' target='_blank' rel='noopener noreferrer'>" +
+//                     "<span class='cert-year'>" + toSafeText(certificates[i].year) + "</span>" +
+//                     "<h4>" + toSafeText(certificates[i].title) + "</h4>" +
+//                     "<p>" + toSafeText(certificates[i].issuer) + "</p>" +
+//                 "</a>";
+//     }
 
-    gridBox.innerHTML = html;
-}
+//     gridBox.innerHTML = html;
+// }
 
 
 /* =========================================================
@@ -955,8 +955,8 @@ function startWebsite() {
     makeSkills(skillsGridBox);
     makeFilters(filterRowBox);
     makeProjects(projectsGridBox, "All");
-    makeTimeline(timelineBox);
-    makeCertificates(certGridBox);
+    // makeTimeline(timelineBox);
+    // makeCertificates(certGridBox);
     makeServices(servicesGridBox);
     makeTestimonials(testiGridBox);
     makeContact(contactCardsBox, contactNoteTextBox, contactMailButton);
