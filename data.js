@@ -116,8 +116,8 @@ var projects = [
         icon: "✓",
         description: "Add tasks, mark them complete and delete them. Everything is saved in the browser with localStorage.",
         tech: ["HTML", "CSS", "JavaScript", "localStorage"],
-        demo: "https://shayanulhaq16.github.io/Todo-List/",
-        code: "https://github.com/shayanulhaq16/Todo-List",
+        demo: "https://shayanulhaq16.github.io/To-do-List/",
+        code: "https://github.com/shayanulhaq16/To-do-List",
         featured: true
     },
     // { // ***
@@ -157,7 +157,7 @@ var projects = [
         description: "The portfolio you are looking at right now. Every section is generated from a single data file.",
         tech: ["HTML", "CSS", "JavaScript"],
         demo: "https://student-portfolio-kappa-weld.vercel.app/",
-        code: "https://github.com/shayanulhaq16/Student-Portfolio-Template-After-JS",
+        code: "https://github.com/shayanulhaq16/Portfolio-Template-For-Beginners",
         featured: true
     }
 ];
