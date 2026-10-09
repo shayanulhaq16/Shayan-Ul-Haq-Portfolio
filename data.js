@@ -37,7 +37,7 @@ var socialLinks = [
     { name: "GitHub",   icon: "GH", link: "https://github.com/shayanulhaq16" },
     { name: "LinkedIn", icon: "in", link: "https://www.linkedin.com/in/shayan-ul-haq-757192397/" },
     { name: "Twitter",  icon: "X",  link: "https://x.com/shayanulhaq16" },
-    { name: "Email",    icon: "@",  link: "shayanulhaq5555@gmail.com" }
+    { name: "Email", icon: "@", link: "https://mail.google.com/mail/?view=cm&fs=1&to=shayanulhaq5555@gmail.com" }
 ];
 
 
