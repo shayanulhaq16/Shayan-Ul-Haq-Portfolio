@@ -596,6 +596,7 @@ function makeFooterTop(headingBox, subBox, buttonBox, aboutBox) {
     headingBox.innerHTML = toSafeText(footerInfo.ctaText);
     subBox.innerHTML = toSafeText(footerInfo.ctaSub);
     buttonBox.innerHTML = toSafeText(footerInfo.ctaButton);
+    buttonBox.setAttribute("href", "https://wa.me/923131070322");
     aboutBox.innerHTML = toSafeText(footerInfo.about);
 }
 
