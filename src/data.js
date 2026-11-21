@@ -47,10 +47,10 @@ export const navLinks = [
 
 /* ---------- 3) SOCIAL LINKS -------------------------------------------- */
 export const socialLinks = [
-    { name: "GitHub",   icon: "GH", link: "https://github.com/username" },
-    { name: "LinkedIn", icon: "in", link: "https://linkedin.com/in/username" },
-    { name: "Twitter",  icon: "X",  link: "https://twitter.com/username" },
-    { name: "Email",    icon: "@",  link: "mailto:ali.huzaifa@example.com" }
+    { name: "GitHub",   icon: "GH", link: "https://github.com/shayanulhaq16/" },
+    { name: "LinkedIn", icon: "in", link: "https://www.linkedin.com/in/shayanulhaq16/" },
+    { name: "Twitter",  icon: "X",  link: "https://x.com/shayanulhaq16" },
+    { name: "Email",    icon: "@",  link: "https://mail.google.com/mail/?view=cm&fs=1&to=shayanulhaq5555@gmail.com" }
 ];
 
 
