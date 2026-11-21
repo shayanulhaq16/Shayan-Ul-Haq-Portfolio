@@ -14,8 +14,8 @@
 
 /* ---------- 1) BASIC INFO — shown in the top hero banner --------------- */
 export const profile = {
-    name: "Ali Huzaifa",
-    initials: "AH",                       // shown in the circle if there is no photo
+    name: "Shayan Ul Haq",
+    initials: "SH",                       // shown in the circle if there is no photo
     photo: "",                            // put your image path here, e.g. "/me.jpg"
     role: "Front End Developer",
     typingRoles: [                        // these words type themselves one by one
@@ -26,10 +26,10 @@ export const profile = {
     ],
     tagline: "I am a computer science student who builds clean, fast and mobile friendly websites with React, HTML and CSS.",
     location: "Karachi, Pakistan",
-    email: "ali.huzaifa@example.com",
-    phone: "+92 300 1234567",
+    email: "shayanulhaq5555@gmail.com",
+    phone: "0313-1070322",
     available: true,                      // true shows the green "open to work" badge
-    resume: "/resume.pdf"                 // put the file in the public folder
+    resume: ""                 // put the file in the public folder
 };
 
 
