@@ -61,9 +61,8 @@ export const aboutText = [
 ];
 
 export const aboutFacts = [
-    { label: "Full Name",  value: "Ali Huzaifa" },
-    { label: "Degree",     value: "BS Computer Science" },
-    { label: "University", value: "NED University" },
+    { label: "Full Name",  value: "Shayan Ul Haq" },
+    { label: "Institute", value: "Saylani (SMIT)" },
     { label: "Languages",  value: "English, Urdu" },
     { label: "Location",   value: "Karachi, Pakistan" },
     { label: "Freelance",  value: "Available" }
@@ -71,9 +70,9 @@ export const aboutFacts = [
 
 export const stats = [
     { number: 12, suffix: "+", label: "Projects Built" },
-    { number: 3,  suffix: "",  label: "Years Learning" },
-    { number: 8,  suffix: "+", label: "Certificates" },
-    { number: 5,  suffix: "+", label: "Happy Clients" }
+    { number: 1,  suffix: "",  label: "Years Learning" },
+    // { number: 8,  suffix: "+", label: "Certificates" },
+    // { number: 5,  suffix: "+", label: "Happy Clients" }
 ];
 
 
