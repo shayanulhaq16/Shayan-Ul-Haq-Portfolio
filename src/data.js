@@ -85,27 +85,27 @@ export const skillGroups = [
             { name: "HTML5",      percent: 92 },
             { name: "CSS3",       percent: 88 },
             { name: "JavaScript", percent: 82 },
-            { name: "React",      percent: 74 }
+            { name: "TypeScript",  percent: 60 }
         ]
     },
     {
         category: "Tools",
         icon: "#",
         skills: [
-            { name: "Vite",           percent: 78 },
+            { name: "Vite",           percent: 50 },
             { name: "Git and GitHub", percent: 70 },
             { name: "VS Code",        percent: 90 },
-            { name: "Figma",          percent: 60 }
+            { name: "Figma",          percent: 30 }
         ]
     },
     {
         category: "Currently Learning",
         icon: "*",
         skills: [
-            { name: "Node.js",     percent: 40 },
-            { name: "TypeScript",  percent: 35 },
-            { name: "Tailwind",    percent: 55 },
-            { name: "MongoDB",     percent: 30 }
+            { name: "React",      percent: 50 },
+            { name: "Node.js",     percent: 0 },
+            { name: "Tailwind",    percent: 0 },
+            { name: "MongoDB",     percent: 0 }
         ]
     }
 ];
